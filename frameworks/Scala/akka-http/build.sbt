@@ -6,8 +6,6 @@ version := "0.0.1-SNAPSHOT"
 
 scalaVersion := "2.11.8"
 
-resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
-
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-experimental" % "2.4.11",
   "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "2.4.11",
